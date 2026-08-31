@@ -1,0 +1,73 @@
+# .project metadata for Cortex
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cortex"
+name: "Cortex"
+description: "A multitenant, horizontally scalable Prometheus as a Service"
+type: "project"
+project_lead: "alanprot" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#cortex"
+    link: "https://cloud-native.slack.com/messages/cortex/"
+    primary: true
+  - name: "#slide"
+
+maturity_log:
+  - phase: "incubating"
+    date: "2018-09-20T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/899" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/cortexproject/cortex"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://cortexmetrics.io/"
+
+artwork: "https://landscape.cncf.io/logos/cortex.svg"
+
+adopters:
+  path: "https://github.com/cortexproject/cortex/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "cortexproject/cortex"
+
+social:
+  twitter: "https://twitter.com/cortexmetrics"
+
+security:
+  policy:
+    path: "https://github.com/cortexproject/cortex/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/cortexproject/cortex/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/cortexproject/cortex/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cortexproject/cortex/blob/master/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/cortexproject/cortex/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/cortexproject/cortex/blob/master/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 90/100
+# Documentation: 97 | License: 75 | Best Practices: 95 | Security: 86
