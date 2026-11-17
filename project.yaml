@@ -27,7 +27,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://cortexmetrics.io/"
 
-artwork: "https://landscape.cncf.io/logos/cortex.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/cortex"
 
 adopters:
   path: "https://github.com/cortexproject/cortex/blob/master/ADOPTERS.md"
